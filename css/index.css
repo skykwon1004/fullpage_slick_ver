@@ -1,0 +1,28 @@
+body {
+    overflow: hidden;
+}
+
+.slick-vertical .slick-slide {
+    border: none;
+}
+
+.itm {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.case:nth-child(odd) .itm {
+    background: #333;
+    color: #fff;
+}
+
+.gnb {
+    position: fixed;
+    inset: 50% 50px auto auto;
+}
+
+.gnb li.on {
+    color: tomato
+}
